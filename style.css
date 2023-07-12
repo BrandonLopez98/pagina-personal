@@ -111,6 +111,7 @@ header section{
 
 .conten-objetivo{
     background: #263238;
+    margin: 0;
 }
 
 .conten-objetivo h2{
@@ -142,6 +143,10 @@ header section{
     padding: 1vw;
     padding-top: 0;
     margin: 1vw 2vw;
+}
+
+.content_objetivo_contactarme{
+    background-color: #D9D9D9;
 }
 
 .carousel-item div{
@@ -195,6 +200,10 @@ header section{
   color: #000000;
 }
 
+.content_contactarme{
+    background-color: #D9D9D9;
+    margin: 0;
+}
 
 .title-porque{
     text-align: center;
@@ -203,34 +212,65 @@ header section{
     font-size: 3vw;
 }
 
+.content-porques{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 .content-porque{
-    background: #b2b4b5;
-    width: 45vw;
+    max-width: 43.9vw;
     margin: 2.5vw;
     display: flex;
 }
 
 .content-porque .content-img .img{
     border-radius: 50px;
-    width: 4vw;
-    height: 4vw;
-    background-color:#27DEBF;
+    width: 6vw;
+    height: 6vw;
+    background-color:#000000;
+    padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0.6vw;
 }
 
 .content-img{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .content-img img{
-    width: 3vw;
+    width: 4vw;
 }
 
 .content-img .barra{
     background-color: #000000;
     width: 0.6vw;
+    height: 100%;
+    color: transparent;
+}
+
+.content-porque-title{
+    background-color: #000000;
+    color: #27DEBF;
+    font-weight: 700;
+    padding: 1vw;
+    font-size: 2vw;
+    margin-left: 1vw;
+    width: 100%;
+}
+
+.content-porque-content{
+    font-weight: 400;
+    font-size: 1.73vw;
+    margin-left: 1vw;
+    margin-bottom: 1.5vw;
+}
+
+.content-porque-content span{
+    font-weight: 700;
 }
