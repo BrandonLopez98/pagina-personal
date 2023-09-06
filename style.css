@@ -6,12 +6,15 @@
 
 }
 
+
+
 nav{
     background: #000000;
     color: #27DEBF;
     font-weight: 700;
     max-width: 100vw;
 }
+
 
 .nav ul{
     display: flex;
@@ -21,6 +24,11 @@ nav{
     padding: 1vw;
     margin-left: 60vw;
     overflow-x: hidden;
+}
+
+.nav a{
+    color:#27DEBF;
+    text-decoration: none;
 }
 
 header section{
@@ -62,6 +70,16 @@ header section{
     border-radius: 30px;
     background: #27DEBF;
     font-weight: 700;
+    color: #000000;
+}
+.descripcion-personal button a{
+    text-decoration: none;
+    width: 18vw;
+    padding: 0.4vw;
+    border-radius: 30px;
+    background: #27DEBF;
+    font-weight: 700;
+    color: #000000;
 }
 
 .img-personal{
@@ -274,3 +292,147 @@ header section{
 .content-porque-content span{
     font-weight: 700;
 }
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .text .title{
+    font-size: 4vw;
+    margin: 4vw 0 2vw 0;
+}
+
+footer .text{
+    width: 70vw;
+    text-align: center;
+    font-size: 2.1vw;
+    margin-bottom: 2vw;
+}
+
+footer .text p{
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+}
+
+footer p span{
+    font-weight: 700;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ;
+}
+
+footer .content-redes{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background: #263238;
+    width: 98%;
+    border-radius: 30px;
+    color: #27DEBF;
+    font-weight: 700;
+    padding: 1.5vw 5vw 1.5vw 5vw;
+}
+ 
+footer .content-redes a{
+    text-decoration: none;
+    color: #27DEBF;
+}
+
+footer .content-redes div{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    font-size: 1.7vw;
+}
+
+footer .content-redes div p{
+ margin: 0 1vw 0 1vw;
+}
+
+footer .content-redes div img{
+    margin: 0 0.5vw 0 0.5vw;
+   }
+
+footer .content-redes img{
+    height: 4vh;
+
+}
+
+footer .copy{
+    margin: 4vw 10vw 2.5vw 10vw;
+    font-size: 1.5vw;
+    color: #000000;
+}
+
+@media (max-width: 769px) {
+    nav {
+        width: 100%;
+      }
+      
+      .nav ul {
+        display: flex;
+        justify-content: space-around;
+        max-width: 1000vw;
+        list-style: none;
+        padding: 1vw;
+        margin-left: auto;
+        overflow-x: hidden;
+      }
+      
+      header section{
+        display: flex;
+        background: #D9D9D9;
+        justify-content: space-between;
+        height: 30vh;
+        max-width: 100vw;
+    }
+      
+  }
+
+  @media (max-width: 426px) {
+    nav {
+        width: 100%;
+      }
+      
+      .nav ul {
+        display: flex;
+        justify-content: space-around;
+        max-width: 1000vw;
+        list-style: none;
+        padding: 2vw;
+        margin-left: auto;
+        overflow-x: hidden;
+        font-size: 3vw;
+      }
+      
+      header section{
+        display:flex;
+        background: #D9D9D9;
+        justify-content: space-between;
+        height: 20vh;
+        max-width: 100vw;
+    }
+
+    .descripcion-personal button{
+        width: 30vw;
+        padding: 0.4vw;
+        border-radius: 30px;
+        background: #27DEBF;
+        font-weight: 700;
+    }
+
+    .conten-destacar{
+        display: block;
+        padding: 3vw;
+    }
+    .conten-destacar div{
+        width: 90vw;
+        text-align: center;
+        margin-top: 2vw;
+    }
+
+    footer .content-redes img{
+        height: 2vh;
+    
+    }
+  }
+  

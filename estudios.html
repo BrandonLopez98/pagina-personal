@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Esteban Lopez</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="/styleEstudio.css">
+    </head>
+<body>
+    <header>
+        <nav> 
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="estudios.html">Estudios</a></li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="contactame.html">Contactame</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="gallery">
+           <img src="./Diplomas/diploma-javascript-practico.webp" alt="diploma-javascript-practico.webp" class="thumbnail" onclick="showImage('./Diplomas/diploma-javascript-practico.webp')">
+           <img src="./Diplomas/diploma-git-github.webp" alt="diploma-git-github.webp" class="thumbnail" onclick="showImage('./Diplomas/diploma-git-github.webp')">
+           <img src="./Diplomas/diploma-diseno-programadores.webp" alt="diploma-diseno-programadores.webp" class="thumbnail" onclick="showImage('./Diplomas/diploma-diseno-programadores.webp')">
+           <img src="./Diplomas/diploma-frontend-developer.webp" alt="diploma-frontend-developer.webp" class="thumbnail" onclick="showImage('./Diplomas/diploma-frontend-developer.webp')">
+           <img src="./Diplomas/diploma-prework-windows.webp" alt="diploma-prework-windows.webp" class="thumbnail" onclick="showImage('./Diplomas/diploma-prework-windows.webp')">
+           <img src="./Diplomas/diploma-ingenieria.webp" alt="diploma-ingenieria.webp" class="thumbnail" onclick="showImage('./Diplomas/diploma-ingenieria.webp')">
+           <img src="./Diplomas/diploma-pensamiento-logico-estructuras.webp" alt="diploma-pensamiento-logico-estructuras.webp" class="thumbnail" onclick="showImage('./Diplomas/diploma-pensamiento-logico-estructuras.webp')">
+           <img src="./Diplomas/diploma-pensamiento-logico-lenguajes.webp" alt="diploma-pensamiento-logico-lenguajes.webp" class="thumbnail" onclick="showImage('./Diplomas/diploma-pensamiento-logico-lenguajes.webp')">
+           <img src="./Diplomas/diploma-programacion-basica.webp" alt="diploma-programacion-basica.webp" class="thumbnail" onclick="showImage('./Diplomas/diploma-programacion-basica.webp')">
+           <img src="./Diplomas/diploma-mobile-first.webp" alt="diploma-mobile-first.webp" class="thumbnail" onclick="showImage('./Diplomas/diploma-mobile-first.webp')">
+           <img src="./Diplomas/diploma-html-practico.webp" alt="diploma-html-practico.webp" class="thumbnail" onclick="showImage('./Diplomas/diploma-html-practico.webp')">
+           <img src="./Diplomas/diploma-pensamiento-logico.webp" alt="diploma-pensamiento-logico.webp" class="thumbnail" onclick="showImage('./Diplomas/diploma-pensamiento-logico.webp')">
+           <img src="./Diplomas/diploma-computacion-basica.webp" alt="diploma-computacion-basica.webp" class="thumbnail" onclick="showImage('./Diplomas/diploma-computacion-basica.webp')">
+           <img src="./Diplomas/diploma-basico-javascript.webp" alt="diploma-basico-javascript.webp" class="thumbnail" onclick="showImage('./Diplomas/diploma-basico-javascript.webp')">
+           <img src="./Diplomas/diploma-html-css.webp" alt="diploma-html-css.webp" class="thumbnail" onclick="showImage('./Diplomas/diploma-html-css.webp')">
+           <img src="./Diplomas/diploma-oop.webp" alt="diploma-oop.webp" class="thumbnail" onclick="showImage('./Diplomas/diploma-oop.webp')">
+           <img src="./Diplomas/diploma-csharp-introduccion.webp" alt="diploma-csharp-introduccion.webp" class="thumbnail" onclick="showImage('./Diplomas/diploma-csharp-introduccion.webp')">
+           <img src="./Diplomas/Tecnico en reparacion de laptops.webp" alt="Tecnico en reparacion de laptops.webp" class="thumbnail" onclick="showImage('./Diplomas/Tecnico en reparacion de laptops.webp')">
+           <img src="./Diplomas/Tecnico en instalacion y reparacion de equipo de computo.webp" alt="Tecnico en instalacion y reparacion de equipo de computo.webp" class="thumbnail" onclick="showImage('./Diplomas/Tecnico en instalacion y reparacion de equipo de computo.webp')">
+           <img src="./Diplomas/CursoHtmlyCsscolsubsidio.webp" alt="CursoHtmlyCsscolsubsidio.webp" class="thumbnail" onclick="showImage('./Diplomas/CursoHtmlyCsscolsubsidio.webp')">
+           <img src="./Diplomas/Diploma Sena.webp" alt="Diploma Sena.webp" class="thumbnail" onclick="showImage('./Diplomas/Diploma Sena.webp')">
+           <img src="./Diplomas/Certificado emprendimiento innovador.webp" alt="Certificado emprendimiento innovador.webp" class="thumbnail" onclick="showImage('./Diplomas/Certificado emprendimiento innovador.webp')">
+           <img src="./Diplomas/Certificado logica matematica en la tecnologia.webp" alt="Certificado logica matematica en la tecnologia.webp" class="thumbnail" onclick="showImage('./Diplomas/Certificado logica matematica en la tecnologia.webp')">
+           <img src="./Diplomas/Certificado apps moviles Google.webp" alt="Certificado apps moviles Google.webp" class="thumbnail" onclick="showImage('./Diplomas/Certificado apps moviles Google.webp')">
+
+          </div>
+        
+          <div id="modal">
+            <span class="close" onclick="hideImage()">&times;</span>
+            <img id="modal-image" src="" alt="">
+          </div>
+        
+    </main>
+    <footer>
+        <div class="text">
+            <p class="title"><span>¡Hablemos!</span></p>
+            <p><span>Si estás buscando un desarrollador web apasionado, orientado a resultados y con habilidades técnicas sólidas, no dudes en contactarme.</span></p>
+            <p>Estoy listo para iniciar nuevos proyectos y enfrentar desafíos emocionantes. <span>¡Juntos podemos crear aplicaciones web asombrosas!</span></p>
+        </div>
+        
+        <div class="content-redes">         
+            <div>
+                <img src="./Imagenes/iconCorreo.svg" alt="">
+                <p><a href="mailto:hola@soyestebanlopez.com">hola@soyestebanlopez.com</a>
+                </p>
+            </div>
+            <div>
+                <img src="./Imagenes/iconTel.svg" alt="">
+                <p><a href="tel:+573103232638">+57 310 323 2638</a>
+                </p>  
+            </div>
+            <div>
+                <P>Contáctame</P>
+
+                <a href="https://www.linkedin.com/in/esteban-lopez-monroy-01b562232/">
+                    <img src="./Imagenes/iconIn.svg" alt="">
+                </a>
+                <a href="https://github.com/BrandonLopez98">
+                    <img src="./Imagenes/iconGit.svg" alt="">
+                </a>
+                <a href="https://www.instagram.com/brandonlopezmonroy/" className="submit-button">
+                    <img src="./Imagenes/iconInsta.svg" alt="">
+                </a>
+            </div>
+        </div>
+        <p class="copy">Copyright © 2023 Esteban Lopez Todos los derechos reservados.</p>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
